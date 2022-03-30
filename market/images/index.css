@@ -37,6 +37,7 @@
 
 #banner img {
   width: 100%;
+  
 }
 
 #body > h1 {
@@ -57,9 +58,12 @@
   /* background-color: gray; */
   border: 1px solid rgb(230, 230, 230);
   border-radius: 12px;
+  overflow: hidden;
 }
-.description_container {
+.product_contents {
   padding: 8px;
+  display: flex;
+  flex-direction: column;
 }
 .product_name {
   font-size: 14px;
