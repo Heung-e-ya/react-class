@@ -2,12 +2,7 @@
   margin: 0;
   padding: 0;
 }
-/* header */
-#header {
-  height: 64px;
-  /* background-color: #000; */
-  border-bottom: 1px solid gray;
-}
+
 
 #header_area {
   width: 1024px;
@@ -21,14 +16,7 @@
   width: calc(257px / 2);
   height: calc(73px / 2);
 }
-/* body */
-#body {
-  width: 1024px;
-  height: 100%;
-  margin: 0 auto;
-  padding-bottom: 24px;
-  /* background-color: blue; */
-}
+
 
 #banner {
   height: 300px;
@@ -84,8 +72,7 @@
   width: 100%;
   height: 210px;
 }
-/* footer */
-#footer {
-  height: 200px;
-  background-color: rgb(230, 230, 230);
+.product-link{
+  text-decoration: none;
+  color: inherit;
 }
