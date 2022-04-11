@@ -1,11 +1,32 @@
-html,body,#root,#root >div{
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+html,
+body,
+#root,
+#root > div {
   height: 100%;
 }
 /* header */
 #header {
   height: 64px;
-  /* background-color: #000; */
+  display: flex;
+  justify-content: center;
   border-bottom: 1px solid gray;
+}
+#header_area {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header_area img {
+  width: calc(257px / 2);
+  height: calc(73px / 2);
 }
 /* body */
 #body {
